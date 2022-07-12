@@ -24,3 +24,29 @@
 2022-07-12/19:12:59		Entered the load_model method of the File_Operation class
 2022-07-12/19:12:59		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
 2022-07-12/19:13:00		End of Prediction
+2022-07-12/19:40:55		Start of Validation on files for prediction!!
+2022-07-12/19:40:59		Raw Data Validation Complete!!
+2022-07-12/19:40:59		Starting Data Transforamtion!!
+2022-07-12/19:41:00		DataTransformation Completed!!!
+2022-07-12/19:41:00		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-07-12/19:41:03		Insertion of Data into Table started!!!!
+2022-07-12/19:41:03		Deleting Good Data Folder!!!
+2022-07-12/19:41:03		Good_Data folder deleted!!!
+2022-07-12/19:41:03		Moving bad files to Archive and deleting Bad_Data folder!!!
+2022-07-12/19:41:03		Bad files moved to archive!! Bad folder Deleted!!
+2022-07-12/19:41:03		Validation Operation completed!!
+2022-07-12/19:41:05		Extracting csv file from table
+2022-07-12/19:41:05		Start of Prediction
+2022-07-12/19:41:05		Entered the get_data method of the Data_Getter class
+2022-07-12/19:41:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-12/19:41:05		Entered the is_null_present method of the Preprocessor class
+2022-07-12/19:41:06		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-12/19:41:06		Entered the separate_label_feature method of the Preprocessor class
+2022-07-12/19:41:07		Entered the separate_label_feature method of the Preprocessor class
+2022-07-12/19:42:12		Entered the remove_columns method of the Preprocessor class
+2022-07-12/19:42:12		removed column successfully
+2022-07-12/19:42:12		Entered the find_correct_model_file method of the File_Operation class
+2022-07-12/19:42:12		Exited the find_correct_model_file method of the Model_Finder class.
+2022-07-12/19:42:12		Entered the load_model method of the File_Operation class
+2022-07-12/19:42:12		Model File XGBoost loaded. Exited the load_model method of the Model_Finder class
+2022-07-12/19:42:13		End of Prediction
