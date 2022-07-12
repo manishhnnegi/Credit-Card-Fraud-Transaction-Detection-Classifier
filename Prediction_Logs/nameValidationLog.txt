@@ -1,7 +1,0 @@
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-15.csv
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-16.csv
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-17.csv
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-18.csv
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-19.csv
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-20.csv
-2022-07-13/00:01:37		Valid File name!! File moved to GoodRaw Folder :: 2018-08-21.csv

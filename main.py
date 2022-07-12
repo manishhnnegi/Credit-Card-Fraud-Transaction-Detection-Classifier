@@ -52,7 +52,7 @@ def predictRouteClient():
 
             # predicting for dataset present in database
             path,json_predictions = pred.predictionFromModel()
-            #os.remove('Prediction_Database/Prediction.db')
+            os.remove('Prediction_Database/Prediction.db')
             return Response("Prediction File created at !!!"  +str(path) +'and few of the predictions are '+str(json.loads(json_predictions) ))
         else:
             print('Nothing Matched')
