@@ -1,0 +1,14 @@
+{	"SampleFileName": "2018-04-01.csv",
+	"YearOfDateStampInFile": 2018,
+	"MonthOfDateStampInFile": 4,
+	"NumberofColumns" : 8,
+	"ColName": {"TRANSACTION_ID" :         "int64",
+		"TX_DATETIME"   :        "object",
+		"CUSTOMER_ID"    :         "int64",
+		"TERMINAL_ID"    :         "int64",
+		"TX_AMOUNT"      :       "float64",
+		"TX_TIME_SECONDS":         "int64",
+		"TX_TIME_DAYS"   :         "int64",
+		"TX_FRAUD"       :         "int64"
+               }
+}

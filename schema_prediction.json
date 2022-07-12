@@ -1,0 +1,19 @@
+{	"SampleFileName": "2018-04-01.csv",
+	"YearOfDateStampInFile": 2018,
+	"MonthOfDateStampInFile": 4,
+	"NumberofColumns" : 13,
+	"ColName": {"TRANSACTION_ID" :         "int64",
+		"TX_DATETIME"   :        "<M8[ns]",
+		"CUSTOMER_ID"    :         "int64",
+		"TERMINAL_ID"    :         "int64",
+		"TX_AMOUNT"      :       "float64",
+		"TX_TIME_SECONDS":         "int64",
+		"TX_TIME_DAYS"   :         "int64",
+		"TERMINAL_ID_NB_TX_1DAY_WINDOW"    : "float64",
+		"TERMINAL_ID_RISK_1DAY_WINDOW"           :  "float64",
+		"TERMINAL_ID_NB_TX_7DAY_WINDOW"          :  "float64",
+		"TERMINAL_ID_RISK_7DAY_WINDOW"          :  "float64",
+		"TERMINAL_ID_NB_TX_30DAY_WINDOW"        :   "float64",
+		"TERMINAL_ID_RISK_30DAY_WINDOW"         :   "float64"
+               }
+}
