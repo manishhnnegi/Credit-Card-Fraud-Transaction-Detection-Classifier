@@ -113,7 +113,7 @@ class dBOperation:
             df = pd.read_sql_query("select * from Good_Raw_Data ", conn)
 
             df.to_csv(fileFromDb + fileName, index=None, header=True)
-            c.execute('DELETE FROM Good_Raw_Data')
+            #c.execute('DELETE FROM Good_Raw_Data')
 
 
             conn.close()
