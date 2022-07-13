@@ -57,9 +57,7 @@ class dBOperation:
                                Output: None
                                On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                               Version: 1.0
-                               Revisions: None
+
 
         """
 
@@ -94,9 +92,6 @@ class dBOperation:
                                Output: None
                                On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                               Version: 1.0
-                               Revisions: None
 
         """
         fileFromDb = 'Prediction_FileFromDB/'

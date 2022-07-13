@@ -25,9 +25,6 @@ class Model_Finder:
                                         Output: The model with the best parameters
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
 
                                 """
         self.logger_object.log(self.file_object,
@@ -98,9 +95,7 @@ class Model_Finder:
                                                 Output: The model with the best parameters
                                                 On Failure: Raise Exception
 
-                                                Written By: iNeuron Intelligence
-                                                Version: 1.0
-                                                Revisions: None
+
 
                                         """
         self.logger_object.log(self.file_object,
@@ -181,15 +176,11 @@ class Model_Finder:
                          delta_delay=7,
                          delta_assessment=7):
         """
-                                                Method Name: get_best_params_for_xgboost
+                                                Method Name: prequentialSplit
                                                 Description: prequential grid search which give the best accuracy.
                                                              Use Hyper Parameter Tuning.
                                                 Output: The model with the best parameters
                                                 On Failure: Raise Exception
-
-                                                Written By: iNeuron Intelligence
-                                                Version: 1.0
-                                                Revisions: None
 
                                         """
         #self.logger_object.log(self.file_object,
@@ -234,14 +225,11 @@ class Model_Finder:
                            start_date_training,
                            delta_train=7, delta_delay=7, delta_test=7, ):
         """
-                                        Method Name: get_best_params_for_random_forest
+                                        Method Name: get_train_test_set
                                         Description: traintest split
                                         Output: The model with the best parameters
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
 
                                 """
         self.logger_object.log(self.file_object,
@@ -303,14 +291,12 @@ class Model_Finder:
 
     def split_train_test(self, train_df, test_df,):
         """
-                                        Method Name: get_best_params_for_random_forest
+                                        Method Name: split_train_test
                                         Description: traintest split
                                         Output: The model with the best parameters
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
+
 
                                 """
         self.logger_object.log(self.file_object,
@@ -348,10 +334,6 @@ class Model_Finder:
                                                         Description: Find out the Model which has the best AUC score.
                                                         Output: The best model name and the model object
                                                         On Failure: Raise Exception
-
-                                                        Written By: iNeuron Intelligence
-                                                        Version: 1.0
-                                                        Revisions: None
 
                                                 """
 
